@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px ;
+    
+}
+#top{
+    width: 1550px;
+    font-size: 13px;
+    background-color: rgb(26, 25, 25);
+    color: gray;
+}
+
+#navbar{
+    background-color: rgb(26, 25, 25);
+    position: sticky;
+    top: 0;
+    width: 1550px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+#navbar > a{
+    text-decoration: none;
+    color: white;
+    /* font-weight: bold; */
+}
+#container{
+    margin-left: 5px;
+}
+.home{
+    color: teal;
+    cursor: pointer;
+}
+span{
+    color: gray;
+}
+#heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
